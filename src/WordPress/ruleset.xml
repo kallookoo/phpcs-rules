@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<ruleset name="WordPress-Excl">
+	<description>WordPress rules that exclude your own files.</description>
+
+	<!-- Only use for PHP files -->
+	<arg name="extensions" value="php"/>
+
+	<config name="testVersion" value="8.0-"/>
+	<config name="minimum_supported_wp_version" value="6.0"/>
+	<!-- WordPress Core files. -->
+	<exclude-pattern>*/wp-admin/*</exclude-pattern>
+	<exclude-pattern>*/wp-includes/*</exclude-pattern>
+	<exclude-pattern>*/(wp-[^/]+|xmlrpc)\.php</exclude-pattern>
+
+	<rule ref="WordPress"/>
+</ruleset>

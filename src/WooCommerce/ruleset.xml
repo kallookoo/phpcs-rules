@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<ruleset name="WooCommerce-Excl">
+	<description>WooCommerce rules that exclude your own files.</description>
+
+	<!-- WooCommerce plugins -->
+	<exclude-pattern>*/plugins/(woocommerce|action-scheduler)/*</exclude-pattern>
+
+	<!-- Inherit exclude and config. -->
+	<rule ref="WordPress-Excl"/>
+
+	<rule ref="WooCommerce-Core"/>
+</ruleset>
