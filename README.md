@@ -16,7 +16,7 @@ When the project is related to WooCommerce set the standard with WooCommerce-Exc
 
 ```xml
 <?xml version="1.0"?>
-<ruleset name="WordPress & WooCommerce Sniffs">
+<ruleset name="WordPress and WooCommerce Sniffs">
 	<description>My project ruleset.</description>
 
 	<!-- Rules -->
