@@ -18,6 +18,14 @@ When the project is related to WooCommerce set the standard with WooCommerce-Exc
 <?xml version="1.0"?>
 <ruleset name="WordPress and WooCommerce Sniffs">
 	<description>My project ruleset.</description>
+	<!-- Only use for PHP files -->
+	<!-- <arg name="extensions" value="php"/> -->
+
+	<!-- Configure the PHP Compatibility WP version. -->
+	<config name="testVersion" value="7.0-"/>
+
+	<!-- Configure the minimum WordPress version -->
+	<config name="minimum_supported_wp_version" value="6.0"/>
 
 	<!-- Rules -->
 
@@ -25,13 +33,9 @@ When the project is related to WooCommerce set the standard with WooCommerce-Exc
 	<!-- <rule ref="WordPress-Excl"/> -->
 	<!-- <rule ref="WooCommerce-Excl"/> -->
 
-	<!-- Configs -->
-	<config name="minimum_supported_wp_version" value="6.0"/>
-	<config name="testVersion" value="8.0-"/>
-
 	<rule ref="WordPress.WP.I18n">
 		<properties>
-			<!-- Replace the text-domain with the text domain in this project. -->
+			<!-- Replace the text-domain with the text domain in this project or remove this rule. -->
 			<property name="text_domain" type="array" value="text-domain"/>
 		</properties>
 	</rule>
