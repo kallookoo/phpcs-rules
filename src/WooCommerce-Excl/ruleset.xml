@@ -4,9 +4,8 @@
 
 	<!-- WooCommerce plugins -->
 	<exclude-pattern>*/plugins/(woocommerce|action-scheduler)/*</exclude-pattern>
-
-	<!-- Inherit exclude and config. -->
+	<!-- Inherit exclude patterns and configurations. -->
 	<rule ref="WordPress-Excl"/>
-
+	<!-- WooCommerce -->
 	<rule ref="WooCommerce-Core"/>
 </ruleset>
