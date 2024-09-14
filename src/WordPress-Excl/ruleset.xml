@@ -2,6 +2,9 @@
 <ruleset name="WordPress-Excl">
 	<description>WordPress rules that exclude your own files.</description>
 
+	<!-- Config - PHPCompatibility to avoid error if not defined. -->
+	<config name="testVersion" value="7.0-"/>
+
 	<!-- WordPress Core files. -->
 	<exclude-pattern>*/wp-admin/*</exclude-pattern>
 	<exclude-pattern>*/wp-includes/*</exclude-pattern>

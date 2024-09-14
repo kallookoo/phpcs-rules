@@ -21,8 +21,8 @@ When the project is related to WooCommerce set the standard with WooCommerce-Exc
 	<!-- Only use for PHP files -->
 	<!-- <arg name="extensions" value="php"/> -->
 
-	<!-- Configure the PHP Compatibility WP version. -->
-	<config name="testVersion" value="7.0-"/>
+	<!-- Configure the PHP Compatibility WP version. Uncomment only if customize the version. -->
+	<!-- <config name="testVersion" value="7.0-"/> -->
 
 	<!-- Configure the minimum WordPress version -->
 	<config name="minimum_supported_wp_version" value="6.0"/>
