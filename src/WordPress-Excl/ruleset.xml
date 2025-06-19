@@ -8,7 +8,20 @@
 	<!-- WordPress Core files. -->
 	<exclude-pattern>*/wp-admin/*</exclude-pattern>
 	<exclude-pattern>*/wp-includes/*</exclude-pattern>
-	<exclude-pattern>*/(wp-[^/]+|xmlrpc)\.php</exclude-pattern>
+	<exclude-pattern>*/wp-activate\.php</exclude-pattern>
+	<exclude-pattern>*/wp-blog-header\.php</exclude-pattern>
+	<exclude-pattern>*/wp-comments-post\.php</exclude-pattern>
+	<exclude-pattern>*/wp-config-sample\.php</exclude-pattern>
+	<exclude-pattern>*/wp-config\.php</exclude-pattern>
+	<exclude-pattern>*/wp-cron\.php</exclude-pattern>
+	<exclude-pattern>*/wp-links-opml\.php</exclude-pattern>
+	<exclude-pattern>*/wp-load\.php</exclude-pattern>
+	<exclude-pattern>*/wp-login\.php</exclude-pattern>
+	<exclude-pattern>*/wp-mail\.php</exclude-pattern>
+	<exclude-pattern>*/wp-settings\.php</exclude-pattern>
+	<exclude-pattern>*/wp-signup\.php</exclude-pattern>
+	<exclude-pattern>*/wp-trackback\.php</exclude-pattern>
+	<exclude-pattern>*/xmlrpc\.php</exclude-pattern>
 
 	<!-- Recommended additional rulesets. -->
 	<rule ref="PHPCompatibilityWP"/>
